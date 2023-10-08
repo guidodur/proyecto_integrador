@@ -212,10 +212,11 @@ html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 0;
 }
 .celdanya{
-    width: 95vw;
+    width: 90vw;
+    max-width: 750px;
     margin: 10px 0;
     height: calc(1em + 20px);
     font-size: 1.7rem;
@@ -224,6 +225,7 @@ html{
 }
 .celdatxt{
     width: 90vw;
+    max-width: 750px;
     height: 150px;
     font-family: 'Noto Sans', sans-serif;
     padding: 15px 20px;
@@ -244,6 +246,7 @@ html{
     height: calc(1rem + 35px);
     font-size: 2rem;
     width: 90vw;
+    max-width: 750px;
     &:hover{
         cursor: pointer;
     }
