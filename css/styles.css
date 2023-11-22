@@ -203,11 +203,6 @@ html{
         text-decoration-style: dotted;
     }
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-}
 .nya{
     display: flex;
     flex-wrap: wrap;
